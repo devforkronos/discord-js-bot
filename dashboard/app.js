@@ -31,7 +31,7 @@ module.exports.launch = async (client) => {
     .set("port", config.DASHBOARD.port) // Set the dashboard port
     .use(
       session({
-        secret: process.env.SESSION_PASSWORD,
+        secret: "Anth0ny1#######",
         cookie: { maxAge: new Date(Date.now() + 12096e5) },
         name: "djs_connection_cookie",
         resave: true,

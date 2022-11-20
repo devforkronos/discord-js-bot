@@ -33,7 +33,7 @@ rl.question(warningMsg, async function (name) {
 
 async function migration() {
   // Connect to database
-  await mongoose.connect(process.env.MONGO_CONNECTION, { keepAlive: true });
+  await mongoose.connect(mongodb+srv://anth:anth@cluster0.lpwwk7t.mongodb.net/?retryWrites=true&w=majority, { keepAlive: true });
   console.log("🔌 Database connection established");
 
   // Get all collections

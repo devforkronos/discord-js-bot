@@ -36,7 +36,7 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
+    enabled: false, // enable or disable dashboard
     baseURL: "https://plutohub.tk", // base url
     failureURL: "https://plutohub.tk", // failure redirect url
     port: "8080", // port to run the bot on
